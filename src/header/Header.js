@@ -6,7 +6,7 @@ import './header.css';
 class Header extends Component {
     render () {
         return (
-            <div className='container'>
+            
             <div className='header'>
                 <div className='row'>
                 
@@ -17,7 +17,7 @@ class Header extends Component {
                     </div>
                 </div>
             </div>
-            </div>
+      
         );
     }
 }

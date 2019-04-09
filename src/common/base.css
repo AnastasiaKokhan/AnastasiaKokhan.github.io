@@ -1,9 +1,7 @@
 * {
 	box-sizing: border-box;
 }
-.continer {
-	width: 1280px;
-}
+
 .header {
 	background-image: url(./bg.png);
 	background-size: 100%;
@@ -13,4 +11,12 @@
 	display: block;
 	clear: both;
 	content:"";
+}
+.block {
+    height: 445px;
+}
+.section-name {
+	text-align: center;
+	font-size: 35px;
+	margin-top: 50px;
 }
