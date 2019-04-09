@@ -1,0 +1,29 @@
+.menu > ul > li {
+	float: right;
+    margin: 22px;
+
+}
+.menu > ul {
+    margin-right: 40px;
+    
+}
+.menu > ul li > a {
+	display: block;
+	/* text-align: center; */
+	text-decoration: none;
+	font-size: 25px;
+    padding-bottom: 5px;
+    color: white;
+    border-bottom: 2px solid transparent;
+   
+}
+.menu > ul li > a:hover {
+	border-bottom: 2px solid white;
+	
+}
+.menu ul:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
