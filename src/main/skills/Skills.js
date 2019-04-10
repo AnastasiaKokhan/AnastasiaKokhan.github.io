@@ -15,7 +15,7 @@ class Skills extends Component {
         }
     render () {
         return (
-            <div className='main'>
+            <div className='skills' id='skills'>
                 <div className='block'>
                     <p className='section-name'>
                         SKILLS

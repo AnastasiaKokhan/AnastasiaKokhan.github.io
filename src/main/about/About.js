@@ -5,7 +5,7 @@ import './about.css'
 class About extends Component {
     render () {
         return (
-            <div className='About'>
+            <div className='about' id='about'>
                 
                 <div className='block'>
                     <p className='section-name'>

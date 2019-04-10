@@ -5,13 +5,13 @@ import './contact.css'
 class Contact extends Component {
 
 
-    dataField = (f) => {
-        console.log("Вы ввели: " + f.name.value);
+    fieldName = (form) => {
+        console.log("Вы ввели: " + form.name.value);
     }
 
     render () {
         return (
-            <div className='main'>
+            <div className='contact' id='contact'>
                 <div className='block'>
                     <p className='section-name'>
                         CONTACT
