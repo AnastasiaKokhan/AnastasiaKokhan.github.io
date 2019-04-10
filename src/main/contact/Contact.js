@@ -12,7 +12,7 @@ class Contact extends Component {
                     </p>
                     <div className='col-40'>
                         <p className='contact-headline'>Phone number:</p>
-                        <p className='contact-text'>+380936042747</p>
+                        <p className='contact-text'>+38093-604-2747</p>
                         <p className='contact-headline'>Email:</p>
                         <p className='contact-text'>Kokhan.a25@gmail.com</p>
                         <p className='contact-headline'>Skype:</p>

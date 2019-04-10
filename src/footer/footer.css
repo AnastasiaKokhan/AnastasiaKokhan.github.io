@@ -1,0 +1,12 @@
+.footer {
+    background-color: rgb(51, 51, 51);
+    height: 170px;
+}
+.foo-text{
+   color: white;
+   padding-left: 190px;
+   padding-top: 5px;
+}
+.foo-text:first-child {
+    padding-top: 55px;
+}
