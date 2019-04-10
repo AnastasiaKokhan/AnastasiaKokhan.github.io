@@ -3,6 +3,12 @@ import React, { Component } from 'react';
 import './contact.css'
 
 class Contact extends Component {
+
+
+    dataField = (f) => {
+        console.log("Вы ввели: " + f.name.value);
+    }
+
     render () {
         return (
             <div className='main'>
@@ -23,7 +29,7 @@ class Contact extends Component {
                             <input className='in-name' type='text' name='Name' placeholder='Name'></input><br />
                             <input className='in-email' type='email' name='Email' placeholder='Email'></input><br />
                             <textarea className='in-text' placeholder='Send a mesage'></textarea><br />
-                            <input className='in-button' type='button' value='SEND'></input>
+                            <input className='in-button' type='button' value='SEND' onClick="dataField(this.form)"></input>
                         </form>
                     </div>
                 </div>

@@ -1,3 +1,6 @@
+.header {
+    position: relative;
+}
 .name {
     font-size: 80px;
     color: white;
@@ -9,4 +12,9 @@
     color: white;
     text-align: center;
    
+}
+.head-img {
+    position: absolute;
+    left: 210px;
+    top:17px;
 }

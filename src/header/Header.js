@@ -9,7 +9,7 @@ class Header extends Component {
             
             <div className='header'>
                 <div className='row'>
-                
+                    <img className='head-img' src='./images/logo1.png'/>
                     <Menu />
                     <div className='block_name_job'>
                         <p className='name'>Anastasiia Kokhan</p>

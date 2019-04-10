@@ -1,12 +1,18 @@
 .footer {
     background-color: rgb(51, 51, 51);
     height: 170px;
+    position: relative;
 }
-.foo-text{
+.foot-text{
    color: white;
    padding-left: 190px;
    padding-top: 5px;
 }
-.foo-text:first-child {
+.foot-text:first-child {
     padding-top: 55px;
+}
+.foot-img {
+    position: absolute;
+    right: 340px;
+    top: 50px;
 }
