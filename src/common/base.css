@@ -24,6 +24,7 @@
 }
 [class*="col-"] {
 	float: left;
+	/* border: 1px solid black; */
 }
 [class*="col-40"] {
 	width: 42%;
@@ -33,6 +34,12 @@
 }
 .col-15 {
 	width: 15%;
+}
+.col-30 {
+	width: 30%;
+}
+.col-60 {
+	width: 58%;
 }
 .block:after {
 	display: block;

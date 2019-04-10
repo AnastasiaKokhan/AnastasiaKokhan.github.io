@@ -1,0 +1,35 @@
+.contact-headline {
+    padding-left: 350px;
+    padding-bottom: 9px; 
+}
+.contact-text {
+    padding-left: 350px;
+    color: rgb(150, 150, 150);
+    padding-bottom: 23px;
+}
+.in-name {
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 30px;
+}
+.in-email {
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 30px;
+}
+.in-text {
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 80px;
+}
+.in-button {
+    width: 120px;
+    color: white;
+    background-color: rgb(66, 66, 66);
+    border-color: rgb(66, 66, 66);
+    margin-top: 20px;
+    margin-left: 165px;
+}
