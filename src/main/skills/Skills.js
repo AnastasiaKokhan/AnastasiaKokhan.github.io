@@ -22,13 +22,13 @@ class Skills extends Component {
                     </p>
                     <ul className='col-50'>
                         {this.items.map(({ name, level }) => (
-                            <li key={name}>
+                            <li className='skills-name' key={name}>
                                 <label>
                                     {name}
                                 </label>
                                 <span className="circle-wrapper">{Array.from({ length: 10 }).map((item, index) => (
                                     <div className={`circle${level > index ? ' done' : ''}`}></div>
-                                ))}
+                                ))} 
                                 </span>
                             </li>
                         ))}

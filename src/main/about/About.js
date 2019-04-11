@@ -18,7 +18,7 @@ class About extends Component {
                         </p>
                     </div>
                     <div className='col-15'>
-                        <img className='about-img' src='./images/about.png' />
+                        <img className='about-img' src='./images/about.png' alt='about-img'/>
                     </div>
                     <div className='col-40'>
                         <h2 className='about-headline'>Dreams</h2>
